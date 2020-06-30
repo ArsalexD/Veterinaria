@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const ClienteSchema= new mongoose.Schema({
+    //hola modifique el archivo cliente.
 
     /*
     
