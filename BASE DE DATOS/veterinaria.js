@@ -1,6 +1,6 @@
 db = db.getSiblingDB("veterinaria");
 db.empleado.insertOne(
-    {
+    { "_id":"",
         "idemple": "1",
         "nombre": "Antonio",
         "apellido1": "Gonzalez",
