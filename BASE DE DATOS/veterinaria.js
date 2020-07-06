@@ -1,5 +1,5 @@
 db = db.getSiblingDB("veterinaria");
-db.empleado.insertOne(
+db.empleados.insertOne(
     { "_id":"1",
         "nombre": "Antonio",
         "apellido1": "Gonzalez",
@@ -16,7 +16,7 @@ db.empleado.insertOne(
         ]
     }
 );
-db.cliente.insertOne(
+db.clientes.insertOne(
     {
         "_id": "1",
         "nombre": "TEST",
@@ -58,7 +58,7 @@ db.cliente.insertOne(
         ]
     }
 );
-db.usuario.insertOne({
+db.usuarios.insertOne({
     "_id": "1",
     "correo": "testusuario@gmail.com",
     "contraseña": "testusuario",
@@ -66,7 +66,7 @@ db.usuario.insertOne({
 });
 
 
-db.jaula.insertOne({
+db.jaulas.insertOne({
     "numerojaula": "1",
     "activa": false,
     "idmascota": "12121",
