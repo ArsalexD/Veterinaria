@@ -27,16 +27,22 @@ db.clientes.insertOne(
         "correo": "correotest@gmail.com",
         "mascota": [
             {
-                "_id": "1",
+                
                 "nombre": "firulais",
                 "raza": "chihuahua",
                 "tamaño": "pequeña",
-                "peso": 3
+                "peso": 3,
+                "jaula":{
+                    "numerojaula": "1",
+                    "activa": false,
+                    "idmascota": "12121",
+                    "hora":{$date:{"horaini":""}}
+                }
             }
         ],
         "cita": [
             {
-                "_id": "1",
+                
                 "numerocita": 3,
                 "fecha": {
                     "$date": "2020-06-16T05:00:00.000Z"
@@ -66,9 +72,3 @@ db.usuarios.insertOne({
 });
 
 
-db.jaulas.insertOne({
-    "numerojaula": "1",
-    "activa": false,
-    "idmascota": "12121",
-    "hora":{$date:{"horaini":""}}
-});
