@@ -1,0 +1,64 @@
+.contenedor-principal {
+    margin-bottom: 20px;
+}
+
+.nstr {
+    margin-top: 25px;
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 6px #AFD7FB;
+}
+
+.nstr h1 {
+    font-family: 'Muli', sans-serif;
+    font-size: 25px;
+    color: #A3A4A5;
+}
+
+.pastor {
+    width: 350px;
+    height: 250px;
+}
+
+.bendita {
+    width: 100px;
+    height: 90px;
+    margin-right: 80px;
+}
+
+.caja-nosotros2 {
+    margin-top: 100px;
+    margin-bottom: 90px;
+}
+
+.cuyo {
+    width: 350px;
+    height: 300px;
+}
+
+.contenedor-nosotros {
+    font-family: 'Muli', sans-serif;
+    border-radius: 10px;
+    box-shadow: 2px 3px 6px #AFD7FB;
+}
+
+.contenedor-nosotros p {
+    font-size: 25px;
+}
+
+.caja-nosotros3 {
+    margin-bottom: 30px;
+}
+
+.contenedor-animalitos {
+    margin-bottom: 20px;
+}
+
+.boton-azul-nosotros {
+    margin-top: 25px;
+}
+
+.linea-hr {
+    margin-left: 80px;
+}

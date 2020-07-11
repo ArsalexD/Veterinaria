@@ -1,0 +1,14 @@
+.site-footer {
+    background-color: #333333;
+    margin: 0;
+}
+
+.copyright {
+    color: #F7F3F4;
+}
+
+.contenedor-footer {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+}
