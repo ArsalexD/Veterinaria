@@ -5,7 +5,7 @@ const mongoose=require('mongoose');
 const ClienteSch= mongoose.model('cliente');
 const{check,ValidacionesResult, validationResult}=require('express-validator');
 const bcrypt = require ('bcrypt') ;  
-
+/*Hola*/
 /* GET users listing. 
 router.get('/', async(req, res, next)=> {
  const usuarios= await Usuarios.find()
